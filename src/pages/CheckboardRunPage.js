@@ -387,9 +387,7 @@ function CheckboardRunPage() {
               displayEmpty
               fullWidth
             >
-              <MenuItem value="" disabled>
-                저장된 시간대 선택
-              </MenuItem>
+              <MenuItem value="">저장된 시간대 선택</MenuItem>
               {savedCheckData.map((entry, index) => (
                 <MenuItem
                   key={entry.time}
